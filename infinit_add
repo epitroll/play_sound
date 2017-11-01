@@ -2,7 +2,7 @@
 
 mkdir ~/.troll
 cp gogole.sh ~/.troll
-cp son.mp3 ~/.troll
+cp son.wav ~/.troll
 echo "alias make='~/.troll/gogole.sh'" >> ~/.bashrc
 source ~/.bashrc
 echo "alias make='~/.troll/gogole.sh'" >> ~/.zshrc
